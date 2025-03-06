@@ -1,0 +1,15 @@
+li{
+    color: black;
+}
+.stars{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.star.active svg{
+    fill: yellow;
+    stroke: none;
+}
+.star{
+    cursor: pointer;
+}
