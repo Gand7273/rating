@@ -1,15 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+}
 li{
     color: black;
+}
+body{
+    background-color: black;
+    font-family: "Nunito",sans-serif;
+    background-image: url('./img/abstract-star-shaped-blinds-oscillation-background-3d-star-wavy-surface-geometric-elements-displacement.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.auth-page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
 }
 .stars{
     display: flex;
     list-style-type: none;
     padding: 0;
+    justify-content: center;
+    align-items: center;
 }
 .star.active svg{
     fill: yellow;
     stroke: none;
 }
 .star{
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 376px;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    background-color: #1B1B1B;
+    color: white;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 20px;
+}
+.form label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+.form button{
+    padding: 10px;
+}
+.inp{
+    display: block;
+    border-radius: 10px;
+    padding: 10px 10px 5px 10px;
+    border: 1px solid gray;
+}
+.inp::placeholder{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.reg{
+    display: block;
+    border: 0.5px solid gray;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
     cursor: pointer;
 }

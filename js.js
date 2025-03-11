@@ -1,7 +1,7 @@
 const starsList = document.querySelector(".stars")
 for(let i = 0; i<5; i++){
     const li = document.createElement("li")
-    li.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24.00 24.00" fill="black" stroke="none">
+    li.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24.00 24.00" fill="white" stroke="none">
 
             <g id="SVGRepo_bgCarrier" stroke-width="0"/>
             
